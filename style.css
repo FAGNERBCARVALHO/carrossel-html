@@ -171,9 +171,9 @@ header a {
     }
 }
 /*Textos Principais*/
-.container.list .list-item:nth-last-child(1).content .title,
-.container.list .list-item:nth-last-child(1).content .description,
-.container.list .list-item:nth-last-child(1).content .buttons {
+.container .list .list-item:nth-last-child(1).content .title,
+.container .list .list-item:nth-last-child(1).content .description,
+.container .list .list-item:nth-last-child(1).content .buttons {
     transform: translateY(50px);
     filter: blur(20px);
     opacity: 0;
@@ -186,14 +186,14 @@ header a {
         opacity: 1;
     }
 }
-.container.list .list-item:nth-last-child(1).content .title{
+.container .list .list-item:nth-last-child(1).content .title {
     animation-delay: 1.2s;
 }
-.container.list .list-item:nth-last-child(1).content .description{
+.container .list .list-item:nth-last-child(1).content .description {
     animation-delay: 1.6s;
 
 }
-.container.list .list-item:nth-last-child(1).content .buttons{
+.container .list .list-item:nth-last-child(1).content .buttons {
     animation-delay: 2s;
 }
 /*Imagem Principal  Next*/
