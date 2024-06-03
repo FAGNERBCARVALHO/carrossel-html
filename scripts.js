@@ -9,13 +9,15 @@ btnNext.onclick = () => moveItemsOnClick('next')
 btnBack.onclick = () => moveItemsOnClick('back')
 
 
+
 function moveItemsOnClick(type) {
 
     let listItems = document.querySelectorAll('.list .list-item')
     let thumbItems = document.querySelectorAll('.thumb .thumb-item')
 
-    console.log(listItems)
+   /* console.log(listItems)
     console.log(thumbItems)
+    */
 
 
     if (type === 'next') {
@@ -48,3 +50,34 @@ function moveItemsOnClick(type) {
 
 
 }
+/*
+const thumbs = document.querySelectorAll('.thumb-item');
+        let currentThumbIndex = 0;
+
+        function showCurrentThumb() {
+            thumbs.forEach((thumb, index) => {
+                if (index === currentThumbIndex) {
+                    thumb.style.display = 'block';
+                } else {
+                    thumb.style.display = 'none';
+                }
+            });
+        }
+
+        function previousThumb() {
+            currentThumbIndex--;
+            if (currentThumbIndex < 0) {
+                currentThumbIndex = thumbs.length - 1;
+            }
+            showCurrentThumb();
+        }
+
+        function nextThumb() {
+            currentThumbIndex++;
+            if (currentThumbIndex >= thumbs.length) {
+                currentThumbIndex = 0;
+            }
+            showCurrentThumb();
+        }
+
+        showCurrentThumb();*/
