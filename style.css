@@ -23,7 +23,7 @@ header {
 }
 header a {
     color:#eee;
-    margin-right: 40px;
+    margin-left: 40px;
     font-weight: 300;
     
 
@@ -235,5 +235,12 @@ header a {
         left: 50%;
         bottom: 50px;
 
+    }
+}
+@media (max-width:1236px){
+    .arrows{
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
     }
 }
